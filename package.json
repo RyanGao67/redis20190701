@@ -1,0 +1,21 @@
+{
+  "name": "redis20190701",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "logger": "0.0.1",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "redis": "^2.8.0"
+  }
+}
